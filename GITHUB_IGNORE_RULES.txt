@@ -1,0 +1,9 @@
+Create a file named .gitignore in your GitHub repository after upload and copy these rules into it:
+
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+.env
+client/.env
+server/.env
