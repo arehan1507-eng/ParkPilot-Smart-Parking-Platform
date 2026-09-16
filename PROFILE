@@ -1,0 +1,22 @@
+# Hi, I'm Rehan 👋
+
+BTech CSE Student | Python | Web Development | Machine Learning | Cybersecurity
+
+I enjoy building practical projects in software development,
+data science, and cybersecurity.
+
+## 🚀 Featured Projects
+
+🔐 SINGASCOPE
+Python-based OSINT Investigation Chatbot
+
+🚗 Smart Parking System
+Web-based smart parking project
+
+🧠 Data Science / ML
+Machine learning project built with Python
+
+## 🛠️ Skills
+
+Python • Java • C • JavaScript  • Node.js
+Machine Learning • GitHub • SQL
