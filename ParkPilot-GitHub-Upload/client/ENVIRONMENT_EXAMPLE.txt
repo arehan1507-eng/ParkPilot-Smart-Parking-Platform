@@ -1,0 +1,3 @@
+Create client/.env locally from this configuration after cloning the repository:
+
+VITE_API_URL=http://localhost:5000/api
