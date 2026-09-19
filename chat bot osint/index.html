@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="SingaScope — a professional cyber safety and OSINT research console." />
+  <title>SingaScope | Cyber Safety Console</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <main class="app-shell">
+    <section class="console" aria-label="SingaScope cyber safety assistant">
+      <header class="console-header">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div>
+            <h1>SINGA<span>SCOPE</span></h1>
+            <p class="eyebrow">◉ YOUR FELLOW CYBER GUIDE ◉</p>
+          </div>
+        </div>
+        <div class="status"><i></i> DEFENSIVE MODE</div>
+      </header>
+
+      <div class="workspace">
+        <aside class="sidebar">
+          <div class="sidebar-title"><span>Quick access</span><small>SELECT A MODULE</small></div>
+          <nav id="toolNav" aria-label="Research tools"></nav>
+          <div class="ethics-note">
+            <span>✦</span>
+            <p>Use only for lawful, ethical research.</p>
+          </div>
+        </aside>
+
+        <section class="chat-area">
+          <div class="chat-topbar">
+            <div><span class="live-dot"></span> ACTIVE SESSION <em>•</em> LOCAL MODE</div>
+            <button class="clear-btn" id="clearChat" type="button" aria-label="Clear conversation">Clear</button>
+          </div>
+          <div class="messages" id="messages" aria-live="polite"></div>
+          <div class="suggestions" id="suggestions" aria-label="Suggested prompts"></div>
+          <form class="composer" id="composer">
+            <label class="sr-only" for="messageInput">Message SingaScope</label>
+            <input id="messageInput" autocomplete="off" placeholder="Ask a research question or select a module…" />
+            <button class="send-btn" type="submit"><span>Send</span><b>↗</b></button>
+          </form>
+          <p class="input-note">SINGASCOPE recommends public, trusted resources — it never accesses private data.</p>
+        </section>
+      </div>
+    </section>
+    <p class="footer">SINGASCOPE <span>/</span> SAFER DIGITAL DECISIONS</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
